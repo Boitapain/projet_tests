@@ -1,6 +1,7 @@
 import pickle
 import pandas as pd
 
+
 # Charger le modèle sauvegardé
 with open("model.pkl", "rb") as file:
     model = pickle.load(file)
